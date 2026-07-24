@@ -30,9 +30,3 @@ mvn spring-boot:run
 ```bash
 ./mvnw spring-boot:run
 ```
-
-
-
-## ผู้พัฒนา
-
-Pop — Khon Kaen University
