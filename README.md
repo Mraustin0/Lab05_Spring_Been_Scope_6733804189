@@ -2,6 +2,13 @@
 
 นาย ภควัฒน์ สุขมณี 673380418-9 Sec4
 
+REST API สำหรับจัดการเมนูร้านกาแฟ (เพิ่ม / ดู / แก้ไข / ลบ) พัฒนาด้วย Spring Boot ตามหลัก Layered Design (Model / Service / Controller)
+
+รายวิชา **CP353002 — Principles of Software Design and Development**
+
+## โครงสร้างโปรเจกต์
+
+```
 src/main/java/com/example/Coffeeapi/
 ├── CoffeeapiApplication.java
 ├── model/
@@ -10,14 +17,22 @@ src/main/java/com/example/Coffeeapi/
 │   └── CoffeeService.java   # Logic การจัดการข้อมูล (เก็บใน List)
 └── controller/
     └── CoffeeController.java # รับ HTTP request แล้วเรียก Service
+```
 
+## วิธีรัน
 
-วิธีรัน
-
-bash
+```bash
 mvn spring-boot:run
+```
 
 หรือใช้ Maven Wrapper (ไม่ต้องลง Maven เอง):
 
-bash
+```bash
 ./mvnw spring-boot:run
+```
+
+
+
+## ผู้พัฒนา
+
+Pop — Khon Kaen University
